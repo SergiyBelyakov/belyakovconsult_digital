@@ -326,13 +326,8 @@ textarea { resize:vertical; min-height:140px; }
     border-color: rgba(255,77,77,.45);
     box-shadow: 0 24px 60px rgba(0,0,0,.52), 0 0 32px rgba(176,0,0,.16);
 }
-.service-card.service-card-premium.is-featured {
-    border-color: rgba(255,77,77,.55);
-    box-shadow: 0 24px 60px rgba(0,0,0,.55), 0 0 24px rgba(176,0,0,.18);
-}
-.service-card.service-card-premium.is-featured::after {
-    background: linear-gradient(90deg, rgba(176,0,0,.0), rgba(255,77,77,.72), rgba(176,0,0,.0));
-}
+
+
 .service-visual {
     position: relative;
     min-height: 220px;
@@ -442,8 +437,7 @@ textarea { resize:vertical; min-height:140px; }
    - red underline for active navigation item
    ========================================================= */
 
-.service-card.service-card-premium,
-.service-card.service-card-premium.is-featured{
+.service-card.service-card-premium{
     border-radius:0 !important;
 }
 
@@ -507,8 +501,7 @@ textarea { resize:vertical; min-height:140px; }
 }
 
 @media(max-width:768px){
-    .service-card.service-card-premium,
-    .service-card.service-card-premium.is-featured{
+    .service-card.service-card-premium{
         border-radius:0 !important;
     }
 
@@ -881,3 +874,19 @@ img { max-width:100%; }
 .profile-hero{min-height:650px}.profile-tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 34px}.profile-tags span{padding:8px 11px;border:1px solid rgba(255,255,255,.12);color:#bfc8d2;font-size:.75rem}.profile-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(290px,.55fr);gap:80px}.profile-facts{border-left:1px solid rgba(255,77,77,.25);padding-left:30px}.profile-facts div{padding:0 0 25px;margin-bottom:25px;border-bottom:1px solid rgba(255,255,255,.08)}.profile-facts span{display:block;color:#7f8a97;font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;margin-bottom:8px}.profile-facts strong{display:block;color:#e4e9ef;font-size:.98rem;line-height:1.55}.expertise-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.expertise-grid a{min-height:180px;padding:26px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.018);text-decoration:none;display:flex;flex-direction:column;justify-content:flex-end;gap:9px}.expertise-grid a:hover{border-color:rgba(255,77,77,.34);background:rgba(176,0,0,.04)}.expertise-grid strong{color:#fff;font-family:var(--font-h);font-size:1.05rem}.expertise-grid span{color:#98a5b3;font-size:.9rem;line-height:1.55}
 @media(max-width:1000px){.detail-card-grid{grid-template-columns:1fr}.detail-two-col,.profile-grid{grid-template-columns:1fr;gap:45px}.output-panel{position:static}.process-grid{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:1fr}.case-detail,.case-detail.reverse{grid-template-columns:1fr}.case-detail.reverse .case-detail-media{order:0}.insight-nav-grid,.expertise-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:768px){.detail-hero{min-height:auto;padding:150px 0 72px}.detail-hero-media{top:90px;right:-35%;width:100%;height:360px;opacity:.22}.detail-hero-copy h1{font-size:2.55rem}.detail-hero-copy>p{font-size:1.04rem}.process-grid,.insight-nav-grid,.expertise-grid{grid-template-columns:1fr}.process-step{min-height:auto}.case-detail-media,.case-detail-media img{min-height:280px}.profile-facts{padding-left:20px}.compact-hero{min-height:auto}}
+
+
+/* v4 interaction and profile refinements */
+.service-card-link{color:inherit;text-decoration:none;cursor:pointer}
+.service-card-link:focus-visible{outline:2px solid #ff8989;outline-offset:5px;border-color:rgba(255,77,77,.45);box-shadow:0 24px 60px rgba(0,0,0,.52),0 0 32px rgba(176,0,0,.16)}
+.service-card-link .service-more{pointer-events:none}
+.linkedin-mark{width:18px;height:18px;display:block;flex:0 0 18px}
+.icon-circle .linkedin-mark{width:18px;height:18px}
+.social-circle .linkedin-mark{width:19px;height:19px}
+.linkedin-inline{display:inline-flex;align-items:center;gap:10px}
+.linkedin-inline .linkedin-mark{width:17px;height:17px}
+.about-compact-section{background:radial-gradient(circle at 82% 25%,rgba(176,0,0,.08),transparent 28%),#070a0f;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06)}
+.about-compact{max-width:980px}
+.about-compact p{max-width:850px;color:#b9c4cf;font-size:1.08rem;line-height:1.9;margin:-22px 0 30px}
+.about-compact .section-title{max-width:900px}
+@media(max-width:768px){.about-compact p{font-size:1rem;line-height:1.78;margin-top:-14px}}
