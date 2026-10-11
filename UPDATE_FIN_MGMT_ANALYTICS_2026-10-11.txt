@@ -1,0 +1,9 @@
+Updated Belyakov Consult build:
+- Replaced Data Analysis service illustration with premium 3D glass icon.
+- Added Financial Analytics and Management Analytics detail pages in UA/EN/PT.
+- Replaced financial and management domain visuals with city-background glass dashboard visuals.
+- Made domain cards clickable and linked from Data Analysis pages.
+- Updated sitemap with new URLs.
+
+2026-10-11 approval update:
+- Replaced Financial Analytics and Management Analytics application-area visuals with versions closer to the existing project references: glass dashboards, subtle red accents, and night city background.
