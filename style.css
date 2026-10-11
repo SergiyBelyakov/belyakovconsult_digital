@@ -891,28 +891,51 @@ img { max-width:100%; }
 .about-compact .section-title{max-width:900px}
 @media(max-width:768px){.about-compact p{font-size:1rem;line-height:1.78;margin-top:-14px}}
 
+/* =========================================================
+   ORIGINAL BC. LOGO
+   Source: user-supplied original mark. Do not recreate with type/CSS.
+   ========================================================= */
+.logo.logo-original{
+    display:inline-flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex:0 0 auto;
+    padding:0;
+    margin:0;
+    line-height:1;
+    font-size:0;
+    letter-spacing:0;
+    background:none;
+    overflow:visible;
+}
 
-/* --- ORIGINAL BC. LOGO OVERRIDE --- */
-.logo{
-  width:108px !important;
-  height:48px !important;
-  flex:0 0 108px;
-  display:block !important;
-  background:url('/assets/logo-bc-original.svg') center/contain no-repeat !important;
-  font-size:0 !important;
-  line-height:0 !important;
-  letter-spacing:0 !important;
-  color:transparent !important;
-  overflow:visible;
+.logo-original-image{
+    display:block;
+    width:auto;
+    height:42px;
+    max-width:none;
+    object-fit:contain;
+    object-position:left center;
+    filter:none;
+    transform:none;
 }
-.logo > span,
-.logo .logo-dot{
-  display:none !important;
+
+.logo.logo-original:hover .logo-original-image{
+    filter:none;
+    transform:none;
 }
-@media (max-width:768px){
-  .logo{
-    width:92px !important;
-    height:42px !important;
-    flex-basis:92px;
-  }
+
+.footer-info .logo.logo-original .logo-original-image{
+    height:58px;
 }
+
+@media(max-width:768px){
+    .logo-original-image{
+        height:36px;
+    }
+
+    .footer-info .logo.logo-original .logo-original-image{
+        height:50px;
+    }
+}
+
