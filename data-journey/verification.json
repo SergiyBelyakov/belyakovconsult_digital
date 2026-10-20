@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-20",
+  "models": {
+    "models": 50,
+    "originalReferenceIdentical": true,
+    "allModelsHave3DVolume": true,
+    "allModelsHaveGlassMaterials": true,
+    "allModelsTextureFree": true,
+    "triangles": 557176,
+    "modelBytes": 17371348
+  },
+  "site": {
+    "htmlPages": 42,
+    "localReferences": 1149,
+    "missingLocalReferences": 0,
+    "originalFilesPreserved": 89,
+    "originalAssetsUnchanged": true,
+    "sitemapWellFormed": true
+  },
+  "gltfLoader": {
+    "parsedModels": 50,
+    "meshPrimitives": 286,
+    "errors": 0
+  },
+  "content": {
+    "languages": [
+      "uk",
+      "en"
+    ],
+    "stages": 13,
+    "introScenes": 1,
+    "services": 9,
+    "components": 78,
+    "profiles": 4
+  },
+  "browser": {
+    "fallbackMode": "verified",
+    "catalogAndSearch": "verified",
+    "componentDetail": "verified",
+    "systemMap": "verified",
+    "rejectedRecord": "verified",
+    "languagePreservesStage": "verified",
+    "mobileViewport390": "verified",
+    "tabletViewport768": "verified",
+    "webgl2": "not available in QA browser; GPU rendering and interaction need target-device verification"
+  },
+  "originalArchitectureGLB": "byte-for-byte preserved",
+  "publication": "Packaged source only. No repository push or live deployment in this request."
+}
