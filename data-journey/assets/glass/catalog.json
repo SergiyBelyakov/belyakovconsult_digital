@@ -1,0 +1,900 @@
+[
+  {
+    "id": 1,
+    "name": "Business Intelligence",
+    "file": "01-business-intelligence.glb",
+    "triangles": 6756,
+    "parts": 20,
+    "drawCalls": 4,
+    "bytes": 224640,
+    "sha256": "81dd69e5522cb9d1e3814f2fa7af46e0e5a944508a437376767066d1f7163c32",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/01-business-intelligence.glb",
+    "preview": "/data-journey/assets/glass/previews/01-business-intelligence.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 2,
+    "name": "Data Architecture",
+    "file": "02-data-architecture.glb",
+    "triangles": 14068,
+    "parts": 44,
+    "drawCalls": 4,
+    "bytes": 501588,
+    "sha256": "2930c3729f6c1194fbc3934200bdb26c5a7f11388a93bc54e06aab0ee8e79ae8",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/02-data-architecture.glb",
+    "preview": "/data-journey/assets/glass/previews/02-data-architecture.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 3,
+    "name": "Data Governance",
+    "file": "03-data-governance.glb",
+    "triangles": 10924,
+    "parts": 31,
+    "drawCalls": 4,
+    "bytes": 377568,
+    "sha256": "fe4eaf6790f7aa3d350a90d07571102185a3c27475f15d4c6fda43dafd093bc0",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/03-data-governance.glb",
+    "preview": "/data-journey/assets/glass/previews/03-data-governance.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 4,
+    "name": "Data Quality",
+    "file": "04-data-quality.glb",
+    "triangles": 14304,
+    "parts": 22,
+    "drawCalls": 3,
+    "bytes": 492532,
+    "sha256": "a72af9aeaddf116f3bec43660efb50715cb83c6d47e45bc69d1a2738418ec2a2",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/04-data-quality.glb",
+    "preview": "/data-journey/assets/glass/previews/04-data-quality.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 5,
+    "name": "Financial Analytics",
+    "file": "05-financial-analytics.glb",
+    "triangles": 5420,
+    "parts": 16,
+    "drawCalls": 4,
+    "bytes": 212032,
+    "sha256": "b167eeaaf09a36394936fbee83d6270851d4f2c8cef32652efde129450bc9e4e",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/05-financial-analytics.glb",
+    "preview": "/data-journey/assets/glass/previews/05-financial-analytics.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 6,
+    "name": "Management Analytics",
+    "file": "06-management-analytics.glb",
+    "triangles": 11072,
+    "parts": 20,
+    "drawCalls": 5,
+    "bytes": 317652,
+    "sha256": "23548e1072935d2ccaec0f351b7b62db414dff83d47918ae004435050f11274b",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/06-management-analytics.glb",
+    "preview": "/data-journey/assets/glass/previews/06-management-analytics.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 7,
+    "name": "Geoanalytics",
+    "file": "07-geoanalytics.glb",
+    "triangles": 10092,
+    "parts": 21,
+    "drawCalls": 4,
+    "bytes": 291336,
+    "sha256": "251e57a153d0bb319dcbee216ad09fb35ec906827b53569a07ff5f361fa570d6",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/07-geoanalytics.glb",
+    "preview": "/data-journey/assets/glass/previews/07-geoanalytics.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 8,
+    "name": "Industry Solutions",
+    "file": "08-industry-solutions.glb",
+    "triangles": 6752,
+    "parts": 17,
+    "drawCalls": 5,
+    "bytes": 266428,
+    "sha256": "4c087f6b6703ed17d0a10550806010c9a844b8178c9158181619c0fa72f480cb",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/08-industry-solutions.glb",
+    "preview": "/data-journey/assets/glass/previews/08-industry-solutions.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 9,
+    "name": "Dashboard",
+    "file": "09-dashboard.glb",
+    "triangles": 5860,
+    "parts": 16,
+    "drawCalls": 4,
+    "bytes": 192188,
+    "sha256": "a154ded8e1bed55e6f9acac0f71978ffb3b157eb674a498a9f8e1bac9aac9985",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/09-dashboard.glb",
+    "preview": "/data-journey/assets/glass/previews/09-dashboard.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 10,
+    "name": "KPI",
+    "file": "10-kpi.glb",
+    "triangles": 8716,
+    "parts": 19,
+    "drawCalls": 5,
+    "bytes": 281736,
+    "sha256": "c472d645651fd2e2a05857f154529da2d287d00be8eea7b3b410f3485abcdd4b",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/10-kpi.glb",
+    "preview": "/data-journey/assets/glass/previews/10-kpi.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 11,
+    "name": "Database",
+    "file": "11-database.glb",
+    "triangles": 11680,
+    "parts": 17,
+    "drawCalls": 3,
+    "bytes": 395912,
+    "sha256": "0826c56c2340337711375ca4a980d5b14ad7114c4e71c175820eabc9a933a5a2",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/11-database.glb",
+    "preview": "/data-journey/assets/glass/previews/11-database.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 12,
+    "name": "Data Pipeline",
+    "file": "12-data-pipeline.glb",
+    "triangles": 12144,
+    "parts": 24,
+    "drawCalls": 4,
+    "bytes": 416404,
+    "sha256": "9b8a5c8e0902adfb4d8de752bb687632b0658b3efe8869bd96b0b176d391f43f",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/12-data-pipeline.glb",
+    "preview": "/data-journey/assets/glass/previews/12-data-pipeline.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 13,
+    "name": "ETL Integration",
+    "file": "13-etl-integration.glb",
+    "triangles": 3268,
+    "parts": 9,
+    "drawCalls": 4,
+    "bytes": 136216,
+    "sha256": "fd67dbde94e6868fed6612720b272e55ec47aa6bd69aff51b65f839023afedea",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/13-etl-integration.glb",
+    "preview": "/data-journey/assets/glass/previews/13-etl-integration.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 14,
+    "name": "API",
+    "file": "14-api.glb",
+    "triangles": 12056,
+    "parts": 22,
+    "drawCalls": 3,
+    "bytes": 321816,
+    "sha256": "a9be3624eb02b84f57bdede784d82088755e0f257fb68928ebbffcfff9093646",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/14-api.glb",
+    "preview": "/data-journey/assets/glass/previews/14-api.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 15,
+    "name": "Report",
+    "file": "15-report.glb",
+    "triangles": 1596,
+    "parts": 11,
+    "drawCalls": 4,
+    "bytes": 72048,
+    "sha256": "deff6f2d5f13921893414d6b13f8c2b58d0ddc2c9f59958a2eb8c44602935d42",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/15-report.glb",
+    "preview": "/data-journey/assets/glass/previews/15-report.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 16,
+    "name": "Document",
+    "file": "16-document.glb",
+    "triangles": 1492,
+    "parts": 14,
+    "drawCalls": 5,
+    "bytes": 74580,
+    "sha256": "a08c7060813fe243a43b50f4d090fef23e7bfdc34cf6bd6249c1d4c0f01d00fe",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/16-document.glb",
+    "preview": "/data-journey/assets/glass/previews/16-document.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 17,
+    "name": "Workflow",
+    "file": "17-workflow.glb",
+    "triangles": 3292,
+    "parts": 41,
+    "drawCalls": 4,
+    "bytes": 153428,
+    "sha256": "a4033ef22532d18c9ab1f01105ae6f96353d82ef6e0329ab483bb3152aa92b44",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/17-workflow.glb",
+    "preview": "/data-journey/assets/glass/previews/17-workflow.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 18,
+    "name": "Map",
+    "file": "18-map.glb",
+    "triangles": 10092,
+    "parts": 21,
+    "drawCalls": 4,
+    "bytes": 291276,
+    "sha256": "9959b154d56b9f282e43a0f3d6c7bb8671df0907dc7495f7c01e8877bf098a31",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/18-map.glb",
+    "preview": "/data-journey/assets/glass/previews/18-map.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 19,
+    "name": "Compliance",
+    "file": "19-compliance.glb",
+    "triangles": 12888,
+    "parts": 41,
+    "drawCalls": 4,
+    "bytes": 452232,
+    "sha256": "177526604356f407c518f64af8a961ed25ccf368526a91850f88aa48644ca3d5",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/19-compliance.glb",
+    "preview": "/data-journey/assets/glass/previews/19-compliance.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 20,
+    "name": "Security",
+    "file": "20-security.glb",
+    "triangles": 11968,
+    "parts": 21,
+    "drawCalls": 4,
+    "bytes": 410500,
+    "sha256": "26aa7730b14d7f236b619ee85c4cbd9178f2dffeeecbd90b5fed34f9525d05a1",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/20-security.glb",
+    "preview": "/data-journey/assets/glass/previews/20-security.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 21,
+    "name": "Target",
+    "file": "21-target.glb",
+    "triangles": 4120,
+    "parts": 10,
+    "drawCalls": 4,
+    "bytes": 165160,
+    "sha256": "96554f36589d358a154758e07afc0aef658d18e4caf35197343f98c256839e2c",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/21-target.glb",
+    "preview": "/data-journey/assets/glass/previews/21-target.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 22,
+    "name": "Team",
+    "file": "22-team.glb",
+    "triangles": 5472,
+    "parts": 6,
+    "drawCalls": 2,
+    "bytes": 146856,
+    "sha256": "12f96ebd67cfa1b242af6608d88ce51b11ef74c2dd926a7ab1fe8ce65aec9b76",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/22-team.glb",
+    "preview": "/data-journey/assets/glass/previews/22-team.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 23,
+    "name": "Automation",
+    "file": "23-automation.glb",
+    "triangles": 6264,
+    "parts": 19,
+    "drawCalls": 4,
+    "bytes": 244308,
+    "sha256": "c082736018a41dc5e830c5bffe92ad3ae54f6240772aa136c1a73841e19e0bf6",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/23-automation.glb",
+    "preview": "/data-journey/assets/glass/previews/23-automation.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 24,
+    "name": "Monitoring",
+    "file": "24-monitoring.glb",
+    "triangles": 7960,
+    "parts": 16,
+    "drawCalls": 5,
+    "bytes": 256788,
+    "sha256": "385dccfb131bc7bae2651f158818288a6519ff31459565c037fe3a81e60a4af8",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/24-monitoring.glb",
+    "preview": "/data-journey/assets/glass/previews/24-monitoring.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 25,
+    "name": "Strategy",
+    "file": "25-strategy.glb",
+    "triangles": 12752,
+    "parts": 20,
+    "drawCalls": 4,
+    "bytes": 394184,
+    "sha256": "500730bce61905c52ede606f8ef9c4e44268fbc95cd0f93a1836261b5bc55455",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/25-strategy.glb",
+    "preview": "/data-journey/assets/glass/previews/25-strategy.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 26,
+    "name": "Roadmap",
+    "file": "26-roadmap.glb",
+    "triangles": 11340,
+    "parts": 19,
+    "drawCalls": 4,
+    "bytes": 398320,
+    "sha256": "6456763dd9a176afe79edd5b99679ba29e62e7e484fb6e0b5343d8fa87fd375c",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/26-roadmap.glb",
+    "preview": "/data-journey/assets/glass/previews/26-roadmap.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 27,
+    "name": "Scenario Planning",
+    "file": "27-scenario-planning.glb",
+    "triangles": 12564,
+    "parts": 25,
+    "drawCalls": 4,
+    "bytes": 355888,
+    "sha256": "ae184ecc5b51bf767317e96eb225e132b6f83ca38ae8fe7b21335baf0ebd7e2e",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/27-scenario-planning.glb",
+    "preview": "/data-journey/assets/glass/previews/27-scenario-planning.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 28,
+    "name": "Risk",
+    "file": "28-risk.glb",
+    "triangles": 13316,
+    "parts": 21,
+    "drawCalls": 4,
+    "bytes": 441428,
+    "sha256": "6954c1a62968d12d5a4de270584153cb90455af26ecfacf47dbfeb7d3cc76b71",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/28-risk.glb",
+    "preview": "/data-journey/assets/glass/previews/28-risk.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 29,
+    "name": "Master Data",
+    "file": "29-master-data.glb",
+    "triangles": 30952,
+    "parts": 60,
+    "drawCalls": 4,
+    "bytes": 956308,
+    "sha256": "443eb1c32cd360554b171d84818b216e561a0868f79724d9787f5f032fbfdbaa",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/29-master-data.glb",
+    "preview": "/data-journey/assets/glass/previews/29-master-data.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 30,
+    "name": "Registry",
+    "file": "30-registry.glb",
+    "triangles": 11196,
+    "parts": 21,
+    "drawCalls": 4,
+    "bytes": 325620,
+    "sha256": "d408e503f86f4ffec04ebbf5534b301d735f558bf629fdb77636767c817e8f78",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/30-registry.glb",
+    "preview": "/data-journey/assets/glass/previews/30-registry.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 31,
+    "name": "Metadata",
+    "file": "31-metadata.glb",
+    "triangles": 7284,
+    "parts": 47,
+    "drawCalls": 5,
+    "bytes": 263860,
+    "sha256": "2b22dfe5bcc2f773ac97e883f439e4d9f2c05ec21ae5e45c0c31f0188548fc45",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/31-metadata.glb",
+    "preview": "/data-journey/assets/glass/previews/31-metadata.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 32,
+    "name": "Data Model",
+    "file": "32-data-model.glb",
+    "triangles": 4612,
+    "parts": 55,
+    "drawCalls": 4,
+    "bytes": 211924,
+    "sha256": "431d4f7bbb779724dd0830a85fc54ba557a067798cb8ce6ffa04d74d878fa627",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/32-data-model.glb",
+    "preview": "/data-journey/assets/glass/previews/32-data-model.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 33,
+    "name": "Warehouse",
+    "file": "33-warehouse.glb",
+    "triangles": 13540,
+    "parts": 26,
+    "drawCalls": 4,
+    "bytes": 465916,
+    "sha256": "97bffdfb8bf2fed2aa9a15fd41dbbefa86b149945f7dc9e85e57591be1d74244",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/33-warehouse.glb",
+    "preview": "/data-journey/assets/glass/previews/33-warehouse.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 34,
+    "name": "Lakehouse",
+    "file": "34-lakehouse.glb",
+    "triangles": 17040,
+    "parts": 22,
+    "drawCalls": 3,
+    "bytes": 592332,
+    "sha256": "0e852e402d7da9b8e82b6acf1348b379c498c91aa8feb7b8b0fa047c21327dc4",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/34-lakehouse.glb",
+    "preview": "/data-journey/assets/glass/previews/34-lakehouse.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 35,
+    "name": "Synchronization",
+    "file": "35-synchronization.glb",
+    "triangles": 17512,
+    "parts": 28,
+    "drawCalls": 4,
+    "bytes": 598248,
+    "sha256": "e92ad7939f1c89b5c934f1f638fa8a4f5fd5f960ddacc0aa6eea2fa5d86c61ec",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/35-synchronization.glb",
+    "preview": "/data-journey/assets/glass/previews/35-synchronization.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 36,
+    "name": "Connectors",
+    "file": "36-connectors.glb",
+    "triangles": 8968,
+    "parts": 20,
+    "drawCalls": 3,
+    "bytes": 244040,
+    "sha256": "8ba514bba4229433d7fbd6ac10e8ee6803ac2808f5777305d0fc974bae296227",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/36-connectors.glb",
+    "preview": "/data-journey/assets/glass/previews/36-connectors.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 37,
+    "name": "Access Control",
+    "file": "37-access-control.glb",
+    "triangles": 5608,
+    "parts": 12,
+    "drawCalls": 4,
+    "bytes": 176932,
+    "sha256": "02f6c287ea19f7b5d6efa9a889b980412d95e0cdce70b43ebfff5615e2b9f1a8",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/37-access-control.glb",
+    "preview": "/data-journey/assets/glass/previews/37-access-control.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 38,
+    "name": "User Role",
+    "file": "38-user-role.glb",
+    "triangles": 4164,
+    "parts": 29,
+    "drawCalls": 5,
+    "bytes": 161540,
+    "sha256": "e198c797295d416ccf948499f400826b869e1b452bcae019dba7da31f8ad3e94",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/38-user-role.glb",
+    "preview": "/data-journey/assets/glass/previews/38-user-role.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 39,
+    "name": "Audit",
+    "file": "39-audit.glb",
+    "triangles": 3860,
+    "parts": 13,
+    "drawCalls": 4,
+    "bytes": 154704,
+    "sha256": "baecd001d19cc17b52abd7756951b273d1d4328bec72acbc44006a3df59c48fb",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/39-audit.glb",
+    "preview": "/data-journey/assets/glass/previews/39-audit.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 40,
+    "name": "Alert",
+    "file": "40-alert.glb",
+    "triangles": 6760,
+    "parts": 8,
+    "drawCalls": 4,
+    "bytes": 248204,
+    "sha256": "8650ac997c628b9a774e75b5a926a02556933ae63a799ad5a5342ff4565ed5b7",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/40-alert.glb",
+    "preview": "/data-journey/assets/glass/previews/40-alert.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 41,
+    "name": "Forecast",
+    "file": "41-forecast.glb",
+    "triangles": 5456,
+    "parts": 16,
+    "drawCalls": 4,
+    "bytes": 211396,
+    "sha256": "7f1ed7de507de8b46f333d5c46b22c50d4c82ea5f88dc2a98431cf6b5f53837c",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/41-forecast.glb",
+    "preview": "/data-journey/assets/glass/previews/41-forecast.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 42,
+    "name": "Benchmark",
+    "file": "42-benchmark.glb",
+    "triangles": 3456,
+    "parts": 11,
+    "drawCalls": 4,
+    "bytes": 139336,
+    "sha256": "4e0e3c88fd98a305c493669cc96c21860a4473c39cc5e684638f889f0b43a612",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/42-benchmark.glb",
+    "preview": "/data-journey/assets/glass/previews/42-benchmark.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 43,
+    "name": "Segmentation",
+    "file": "43-segmentation.glb",
+    "triangles": 5832,
+    "parts": 9,
+    "drawCalls": 2,
+    "bytes": 160600,
+    "sha256": "735b59e4e8f9fda3cff2fcf0202c6cba60c2419b8c371c838ecaa2c9309bcd83",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/43-segmentation.glb",
+    "preview": "/data-journey/assets/glass/previews/43-segmentation.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 44,
+    "name": "Customer Journey",
+    "file": "44-customer-journey.glb",
+    "triangles": 20928,
+    "parts": 26,
+    "drawCalls": 4,
+    "bytes": 693580,
+    "sha256": "244a7ffd0ef03dc98071446b44d3379c2f8dec59c17b088af14311c67146319d",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/44-customer-journey.glb",
+    "preview": "/data-journey/assets/glass/previews/44-customer-journey.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 45,
+    "name": "Service Network",
+    "file": "45-service-network.glb",
+    "triangles": 16920,
+    "parts": 29,
+    "drawCalls": 4,
+    "bytes": 548576,
+    "sha256": "c81c9e34bc18ea2a4cca416d164bc7c7ad792e0a6648a850a84665de27034b95",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/45-service-network.glb",
+    "preview": "/data-journey/assets/glass/previews/45-service-network.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 46,
+    "name": "Social Programs",
+    "file": "46-social-programs.glb",
+    "triangles": 8140,
+    "parts": 14,
+    "drawCalls": 4,
+    "bytes": 250964,
+    "sha256": "93e5c903b8adf6a3ae61e16db7ed08be0d29183b56c4fe7a9e015712baaa3e08",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/46-social-programs.glb",
+    "preview": "/data-journey/assets/glass/previews/46-social-programs.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 47,
+    "name": "Healthcare",
+    "file": "47-healthcare.glb",
+    "triangles": 3300,
+    "parts": 8,
+    "drawCalls": 4,
+    "bytes": 136472,
+    "sha256": "4c752fe8c0d27863622f5907f4b40c8b84fbd082d3d11173c0e5c2da9434a8b9",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/47-healthcare.glb",
+    "preview": "/data-journey/assets/glass/previews/47-healthcare.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 48,
+    "name": "Veteran Services",
+    "file": "48-veteran-services.glb",
+    "triangles": 2928,
+    "parts": 10,
+    "drawCalls": 3,
+    "bytes": 99756,
+    "sha256": "0b5caa39eb0d851ba12e7965d8f6ed9674cdb470bceeca4ae640ef3515400983",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/48-veteran-services.glb",
+    "preview": "/data-journey/assets/glass/previews/48-veteran-services.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 49,
+    "name": "Data Architecture Reference",
+    "file": "49-data-architecture-reference.glb",
+    "bytes": 1734156,
+    "sha256": "e0e50b6a7daf11e4d68724eeb4e1f6efe9cc5dfe14718df9f06a2220c001c72a",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "referenceOriginal": true,
+    "url": "/data-journey/assets/glass/models/49-data-architecture-reference.glb",
+    "preview": "/data-journey/assets/glass/previews/49-data-architecture-reference.webp",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "id": 50,
+    "name": "Data Analysis",
+    "file": "50-data-analysis.glb",
+    "triangles": 22516,
+    "parts": 49,
+    "drawCalls": 5,
+    "bytes": 711840,
+    "sha256": "a7b7be1811e504726c324cbf580914e9a9a2c393f22144dc8dc8e23608b00847",
+    "animations": [
+      "Turntable_360",
+      "Float_Idle"
+    ],
+    "url": "/data-journey/assets/glass/models/50-data-analysis.glb",
+    "preview": "/data-journey/assets/glass/previews/50-data-analysis.webp",
+    "width": 480,
+    "height": 360
+  }
+]
