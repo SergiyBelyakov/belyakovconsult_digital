@@ -990,3 +990,13 @@ img { max-width:100%; }
 .detail-card-link small{display:inline-flex;align-items:center;gap:8px;margin-top:16px;color:#fff;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
 .detail-card-link small::after{content:'›';color:#D90429;font-size:1rem;line-height:1}
 
+
+/* BC glass journey and social links */
+.header .social-top{display:flex;gap:7px}.header .social-top .icon-circle{width:32px;height:32px}.bc-social-link svg{width:17px;height:17px}.bc-social-footer{display:flex;align-items:center;gap:9px}.bc-social-footer svg{width:17px;height:17px;flex:none}.header .nav-actions{gap:18px}
+@media(min-width:1241px){.nav-links a{font-size:.69rem;margin-left:13px;letter-spacing:.5px}}
+@media(min-width:769px) and (max-width:1240px){.nav-links{display:none}.menu-toggle{display:inline-flex}.nav-links.is-open{display:flex;position:absolute;top:100%;left:0;right:0;padding:24px 40px;flex-direction:column;gap:22px;background:#090d14;border-bottom:1px solid var(--glass-border)}.nav-links.is-open a{margin:0}}
+@media(max-width:600px){.header .social-top{display:none}}
+.social-modern{flex-wrap:wrap;align-items:center}
+.social-modern .social-circle{flex:none}
+.social-modern .bc-social-footer{font-size:.8rem;margin:0;line-height:1.5;padding:8px 0}
+.bc-social-link[aria-label^="Instagram"] svg{fill:none}

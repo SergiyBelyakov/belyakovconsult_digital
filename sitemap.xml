@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.belyakovconsult.com/</loc>
   </url>
@@ -117,4 +117,4 @@
   <url>
     <loc>https://www.belyakovconsult.com/pt/sergiy-belyakov/</loc>
   </url>
-</urlset>
+<url><loc>https://www.belyakovconsult.com/data-journey/</loc><lastmod>2026-10-20</lastmod><xhtml:link rel="alternate" hreflang="uk" href="https://www.belyakovconsult.com/data-journey/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.belyakovconsult.com/en/data-journey/"/></url><url><loc>https://www.belyakovconsult.com/en/data-journey/</loc><lastmod>2026-10-20</lastmod><xhtml:link rel="alternate" hreflang="uk" href="https://www.belyakovconsult.com/data-journey/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.belyakovconsult.com/en/data-journey/"/></url></urlset>
