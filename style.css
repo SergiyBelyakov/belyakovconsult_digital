@@ -989,3 +989,7 @@ img { max-width:100%; }
 .detail-card-link small{display:inline-flex;align-items:center;gap:8px;margin-top:16px;color:#fff;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
 .detail-card-link small::after{content:'›';color:#D90429;font-size:1rem;line-height:1}
 
+
+/* Data journey navigation: avoid crowding the tablet header. */
+@media(min-width:769px) and (max-width:1120px){.nav-links{display:none}.menu-toggle{display:inline-flex}.nav-links.is-open{display:flex;position:absolute;top:100%;left:0;right:0;padding:24px 40px;flex-direction:column;gap:22px;background:#090d14;border-bottom:1px solid var(--glass-border)}.nav-links.is-open a{margin:0}}
+@media(min-width:1121px){.nav-links a{margin-left:18px;letter-spacing:.6px}}

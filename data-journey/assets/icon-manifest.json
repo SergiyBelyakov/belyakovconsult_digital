@@ -1,0 +1,401 @@
+{
+  "service-architecture.png": {
+    "src": "assets/icons/service-architecture.png",
+    "width": 520,
+    "height": 360,
+    "sha256": "bff52a1a7726762ca117444670b1be20752ec23c10aa8c99d029719988b67b4f",
+    "slide": 4
+  },
+  "service-bi.png": {
+    "src": "assets/icons/service-bi.png",
+    "width": 520,
+    "height": 360,
+    "sha256": "b33e5a263010b78808a569d4697c8853d3db1b3b7c83975f7b0e378e2e717b2a",
+    "slide": 4
+  },
+  "service-consulting.png": {
+    "src": "assets/icons/service-consulting.png",
+    "width": 520,
+    "height": 360,
+    "sha256": "fa9c09df32f3bb6ee3176c7c95bfcb2a84668c71fcf271897be952fa0b03315b",
+    "slide": 4
+  },
+  "service-geospatial.png": {
+    "src": "assets/icons/service-geospatial.png",
+    "width": 520,
+    "height": 360,
+    "sha256": "a66b4fe2c9f2a0b7cccca5662b1d0a944334a58f75ffc3eb6b3ecff8877a42a2",
+    "slide": 4
+  },
+  "service-governance.png": {
+    "src": "assets/icons/service-governance.png",
+    "width": 520,
+    "height": 360,
+    "sha256": "bd930480fc6ed117bd9e10e647a785fbcb1fc23bca027503fbbe08923f81d8d4",
+    "slide": 4
+  },
+  "service-quality.png": {
+    "src": "assets/icons/service-quality.png",
+    "width": 520,
+    "height": 360,
+    "sha256": "dd68dce72e290494eac2eb8deb39977140a150bcb0dc838f2d1b3cd598c5c6bd",
+    "slide": 4
+  },
+  "service-financial-analytics_cut.png": {
+    "src": "assets/icons/service-financial-analytics_cut.png",
+    "width": 1507,
+    "height": 1044,
+    "sha256": "75543aef78085fe85752136b42f773f61cb8102fe3da0237aaf29e71b05aaf23",
+    "slide": 4
+  },
+  "service-data-analysis_cut.png": {
+    "src": "assets/icons/service-data-analysis_cut.png",
+    "width": 1507,
+    "height": 1044,
+    "sha256": "3495144b7b015ba71da4ed0c56a5723b462b27137821a0e8ede1d50e994c02cf",
+    "slide": 4
+  },
+  "service-management-analytics_cut.png": {
+    "src": "assets/icons/service-management-analytics_cut.png",
+    "width": 1507,
+    "height": 1044,
+    "sha256": "9d3e2035d7615ae441c738082908c0067efd4b271c8fd42558ccc4cb6aa11ce1",
+    "slide": 4
+  },
+  "A01_business_intelligence.png": {
+    "src": "assets/icons/A01_business_intelligence.png",
+    "width": 476,
+    "height": 352,
+    "sha256": "0bf59c2f289108497dbd9dbcc2312f0db6430edbad0ec61d76d9c7bb82f1790d",
+    "slide": 5
+  },
+  "A02_data_architecture.png": {
+    "src": "assets/icons/A02_data_architecture.png",
+    "width": 484,
+    "height": 386,
+    "sha256": "71417923cb6cda994385bebb52a46248f0f9a6c200a4e310082ba4d44ccf73d8",
+    "slide": 5
+  },
+  "A03_data_governance.png": {
+    "src": "assets/icons/A03_data_governance.png",
+    "width": 482,
+    "height": 384,
+    "sha256": "d6de8ba0bb6176080c95a5c98b217790197b8ea7705cfa633143edac3ca7fda7",
+    "slide": 5
+  },
+  "A04_data_quality.png": {
+    "src": "assets/icons/A04_data_quality.png",
+    "width": 482,
+    "height": 428,
+    "sha256": "cf9f96d7532e47e77c7bdd4808fb8d52e1ddc95064f5dceb63cf3b22cc316c5d",
+    "slide": 5
+  },
+  "A05_financial_analytics.png": {
+    "src": "assets/icons/A05_financial_analytics.png",
+    "width": 484,
+    "height": 428,
+    "sha256": "625aaab48319c3a20b3e0ab55d6838af25fb224d2f3fcb45dbeffbcaa1741560",
+    "slide": 5
+  },
+  "A06_management_analytics.png": {
+    "src": "assets/icons/A06_management_analytics.png",
+    "width": 466,
+    "height": 406,
+    "sha256": "dc1af5b269e4b1ededda84f6c60dfdb164cdd54d17f8f6c1e351b070b1a1dbc1",
+    "slide": 5
+  },
+  "A07_geoanalytics.png": {
+    "src": "assets/icons/A07_geoanalytics.png",
+    "width": 482,
+    "height": 384,
+    "sha256": "7ad47ea17e5650f2d4d22e557155eb307d3cef2f1a757e21ec4ba93459d21f87",
+    "slide": 6
+  },
+  "A08_industry_solutions.png": {
+    "src": "assets/icons/A08_industry_solutions.png",
+    "width": 484,
+    "height": 382,
+    "sha256": "98b467f65ff15902027ca2030e4838588b0e12c4a1afcf195d01599b7bc26656",
+    "slide": 6
+  },
+  "A09_dashboard.png": {
+    "src": "assets/icons/A09_dashboard.png",
+    "width": 482,
+    "height": 364,
+    "sha256": "b4d4c7619674a5afd47176248ba05fcf7fb0b8c8b8ee86cf7874155034003253",
+    "slide": 6
+  },
+  "A10_kpi.png": {
+    "src": "assets/icons/A10_kpi.png",
+    "width": 482,
+    "height": 344,
+    "sha256": "38509b642fe3f1dea3d19bf67b214851395dbed5d7ffda308add6d28cf628667",
+    "slide": 6
+  },
+  "A11_database.png": {
+    "src": "assets/icons/A11_database.png",
+    "width": 484,
+    "height": 346,
+    "sha256": "c9841f2be9994378be12f02b098cbb148a0a54f03cbdb1be254da4cab9b2da21",
+    "slide": 6
+  },
+  "A12_data_pipeline.png": {
+    "src": "assets/icons/A12_data_pipeline.png",
+    "width": 454,
+    "height": 354,
+    "sha256": "98c23945a6734097dbaa3fcc965e5e8ee07e5d722886a80f171f298b806456d7",
+    "slide": 6
+  },
+  "A13_etl_integration.png": {
+    "src": "assets/icons/A13_etl_integration.png",
+    "width": 482,
+    "height": 354,
+    "sha256": "614f0c224a7e61a4012a8cb8e5345b043870e7dc0320beeacbba29ec83f7de60",
+    "slide": 7
+  },
+  "A14_api.png": {
+    "src": "assets/icons/A14_api.png",
+    "width": 484,
+    "height": 312,
+    "sha256": "d4144ecc9720ba5cc4a333c6a3533c014bc87607fa034636cfbf7c3f3b1c9483",
+    "slide": 7
+  },
+  "A15_report.png": {
+    "src": "assets/icons/A15_report.png",
+    "width": 482,
+    "height": 354,
+    "sha256": "23a23d45fb9a8fd3a4815ed70643219a6bc1cb2fcaaba0c60d5873a49a7ddba5",
+    "slide": 7
+  },
+  "A16_document.png": {
+    "src": "assets/icons/A16_document.png",
+    "width": 482,
+    "height": 354,
+    "sha256": "b71e622284032034a002dc02e05670432773007f7b47b62e105586ce3b69b0b1",
+    "slide": 7
+  },
+  "A17_workflow.png": {
+    "src": "assets/icons/A17_workflow.png",
+    "width": 484,
+    "height": 354,
+    "sha256": "417f41f4dfcb85e6a8c07ef7418088f76fb2ae4d330e1767d689936cea91e7c4",
+    "slide": 7
+  },
+  "A18_map.png": {
+    "src": "assets/icons/A18_map.png",
+    "width": 478,
+    "height": 344,
+    "sha256": "b455147d94d9b7e1920e8d6fa36164826160f1c5889fc9b1f5c4b927652a0c93",
+    "slide": 7
+  },
+  "A19_compliance.png": {
+    "src": "assets/icons/A19_compliance.png",
+    "width": 482,
+    "height": 398,
+    "sha256": "3b16414dfbe9686ee2f07979b38c0ee163e14190fb090bea49a7ef328ea06d35",
+    "slide": 8
+  },
+  "A20_security.png": {
+    "src": "assets/icons/A20_security.png",
+    "width": 484,
+    "height": 406,
+    "sha256": "dbafdfc2946aee88e4fa5e7ffa837d4bb12b725e81cec679f864a43a59fb9cfd",
+    "slide": 8
+  },
+  "A21_target.png": {
+    "src": "assets/icons/A21_target.png",
+    "width": 482,
+    "height": 406,
+    "sha256": "be2d45b8f114aa240609b4eb27d3a4afa9b7299359e120466aa977508d131727",
+    "slide": 8
+  },
+  "A22_team.png": {
+    "src": "assets/icons/A22_team.png",
+    "width": 482,
+    "height": 406,
+    "sha256": "edead933c922d31aa9a6246449200ed7d3bec5295b1ee41c9e8e92b2442bdd62",
+    "slide": 8
+  },
+  "A23_automation.png": {
+    "src": "assets/icons/A23_automation.png",
+    "width": 484,
+    "height": 406,
+    "sha256": "f1da5474deef098a55cff49dd090b950c62d982734f2cd90493aa96cb1611cda",
+    "slide": 8
+  },
+  "A24_monitoring.png": {
+    "src": "assets/icons/A24_monitoring.png",
+    "width": 466,
+    "height": 406,
+    "sha256": "c00dd1a2c630dd4ef7a02e6717f0f7c3ca3b99239e5de1d226d16c9c0b7055de",
+    "slide": 8
+  },
+  "B01_strategy.png": {
+    "src": "assets/icons/B01_strategy.png",
+    "width": 482,
+    "height": 404,
+    "sha256": "4020480069173869e8b1b02fed88d78be5c28cc109a169c2e19161a3650d4b4a",
+    "slide": 9
+  },
+  "B02_roadmap.png": {
+    "src": "assets/icons/B02_roadmap.png",
+    "width": 484,
+    "height": 392,
+    "sha256": "c250d99d616132e781c09ca809e431666c00104f099356d8fb2b5d27a584389d",
+    "slide": 9
+  },
+  "B03_scenario_planning.png": {
+    "src": "assets/icons/B03_scenario_planning.png",
+    "width": 482,
+    "height": 362,
+    "sha256": "ed55b687bfe2f01d778693ec9705e9ddc0c2b887671c130fc9c1d6088f04b3c8",
+    "slide": 9
+  },
+  "B04_risk.png": {
+    "src": "assets/icons/B04_risk.png",
+    "width": 482,
+    "height": 344,
+    "sha256": "254574ee4812a1b2275b24d48a5f93b26d82bcb5d37656b9a813fd9516195e95",
+    "slide": 9
+  },
+  "B05_master_data.png": {
+    "src": "assets/icons/B05_master_data.png",
+    "width": 484,
+    "height": 408,
+    "sha256": "fa4dd4d0592d260f48073dbc8ffadf947170c08c23fa959a102a2602f2fa5550",
+    "slide": 9
+  },
+  "B06_registry.png": {
+    "src": "assets/icons/B06_registry.png",
+    "width": 472,
+    "height": 390,
+    "sha256": "8b098b788076c32c03195819970fff0bc1f16bfd056210258ba0e9293950a393",
+    "slide": 9
+  },
+  "B07_metadata.png": {
+    "src": "assets/icons/B07_metadata.png",
+    "width": 482,
+    "height": 364,
+    "sha256": "c5454c8894236eaa9bb98ae88c6a769a08943bded2a8714884aec441fbf6b3e1",
+    "slide": 10
+  },
+  "B08_data_model.png": {
+    "src": "assets/icons/B08_data_model.png",
+    "width": 484,
+    "height": 364,
+    "sha256": "cb273fd756529ad97a7d4a660be5a5a2c56229dac2261c28a5f1f6736e091de5",
+    "slide": 10
+  },
+  "B09_warehouse.png": {
+    "src": "assets/icons/B09_warehouse.png",
+    "width": 482,
+    "height": 328,
+    "sha256": "6f3ae0b989d9e5c056bffddaf1641371991641a5bc0dd45c3fcde5a0fa187a2b",
+    "slide": 10
+  },
+  "B10_lakehouse.png": {
+    "src": "assets/icons/B10_lakehouse.png",
+    "width": 482,
+    "height": 342,
+    "sha256": "12281d8748a4e376a8e0249952766baa4c7e4333a73169f0d7676ed6c0aa4ffe",
+    "slide": 10
+  },
+  "B11_synchronization.png": {
+    "src": "assets/icons/B11_synchronization.png",
+    "width": 484,
+    "height": 360,
+    "sha256": "9d790ed4caeaadb33d016f87f61d2672f00fb056dc3b5212a6c543b88a3159e6",
+    "slide": 10
+  },
+  "B12_connectors.png": {
+    "src": "assets/icons/B12_connectors.png",
+    "width": 472,
+    "height": 364,
+    "sha256": "1ca5ca0c98372f0eb506d127f78d041406216633452d06b5f0b61e61a9f3e358",
+    "slide": 10
+  },
+  "B13_access_control.png": {
+    "src": "assets/icons/B13_access_control.png",
+    "width": 482,
+    "height": 352,
+    "sha256": "3489ac48c20f1426b4c05b1b4216d8baa683022eb2acabc03223a78914266bd9",
+    "slide": 11
+  },
+  "B14_user_role.png": {
+    "src": "assets/icons/B14_user_role.png",
+    "width": 484,
+    "height": 338,
+    "sha256": "217d20ef1359d8db19e3eb5a729d76f78dd2494cfccd10ca6f8413a4eb62dcf6",
+    "slide": 11
+  },
+  "B15_audit.png": {
+    "src": "assets/icons/B15_audit.png",
+    "width": 482,
+    "height": 376,
+    "sha256": "387cbe3c7a1484b6fe1c2caaa2a382da6ec7dc99136238c5fb39c7ac8ca567c1",
+    "slide": 11
+  },
+  "B16_alert.png": {
+    "src": "assets/icons/B16_alert.png",
+    "width": 482,
+    "height": 360,
+    "sha256": "ff4591f8f8afc7ca783b31d1d539021db87962735427ac95f44b5c9b02e84453",
+    "slide": 11
+  },
+  "B17_forecast.png": {
+    "src": "assets/icons/B17_forecast.png",
+    "width": 484,
+    "height": 364,
+    "sha256": "0dca0aa810b83fad0f735f3b670d5be1841f7b1120051ce86e7a386573305069",
+    "slide": 11
+  },
+  "B18_benchmark.png": {
+    "src": "assets/icons/B18_benchmark.png",
+    "width": 482,
+    "height": 376,
+    "sha256": "7bdb67dd57c897726c6cd3749cd2bf148c024de9e0fe2061fa8a5148ced3e102",
+    "slide": 11
+  },
+  "B19_segmentation.png": {
+    "src": "assets/icons/B19_segmentation.png",
+    "width": 482,
+    "height": 398,
+    "sha256": "555b4a1e76534d5a45775d149a13748c699a766b6c8d04b1f200ac22f3517808",
+    "slide": 12
+  },
+  "B20_customer_journey.png": {
+    "src": "assets/icons/B20_customer_journey.png",
+    "width": 484,
+    "height": 398,
+    "sha256": "9b3227db72e7dcac89f88c46db4e7a6f5ad67b3613e3ce3b638fa5f12f91f0c8",
+    "slide": 12
+  },
+  "B21_service_network.png": {
+    "src": "assets/icons/B21_service_network.png",
+    "width": 482,
+    "height": 398,
+    "sha256": "78f955e44f81f2c45f55a22e36ffd3b3236bff3ea86b2596132381f7fa3b5ad7",
+    "slide": 12
+  },
+  "B22_social_programs.png": {
+    "src": "assets/icons/B22_social_programs.png",
+    "width": 482,
+    "height": 398,
+    "sha256": "5f405a5193554edfd69ab3956bb0e3f44b91c1c73cf9ea09e31d503f25fde407",
+    "slide": 12
+  },
+  "B23_healthcare.png": {
+    "src": "assets/icons/B23_healthcare.png",
+    "width": 484,
+    "height": 398,
+    "sha256": "d96063e0e8bdb9f3a093a9d411bee1776a2c40b0df86a61327060af3789448f5",
+    "slide": 12
+  },
+  "B24_veteran_services.png": {
+    "src": "assets/icons/B24_veteran_services.png",
+    "width": 482,
+    "height": 398,
+    "sha256": "fbf4403e3a9680b931504b12ef81655daea9d4d4a4efe7b4b572f9027a8cbccf",
+    "slide": 12
+  }
+}
