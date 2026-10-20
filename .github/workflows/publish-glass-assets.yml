@@ -1,0 +1,60 @@
+name: Publish BC Glass Data Journey assets
+on:
+  push:
+    branches:
+      - glass-assets-test-20261021
+      - main
+    paths:
+      - .github/workflows/publish-glass-assets.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-glass:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install model and rendering dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r data-journey/source/requirements.txt
+      - name: Prepare directories and build all 50 3D meshes
+        run: |
+          mkdir -p data-journey/assets/glass/models data-journey/assets/glass/previews
+          python data-journey/source/build_glass.py
+      - name: Render glass previews
+        run: python data-journey/source/render_glass.py --samples 16
+      - name: Build model manifest and service composition
+        run: python data-journey/source/refresh_catalog.py
+      - name: Validate generated assets
+        run: |
+          python - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          from pygltflib import GLTF2
+          root=Path('data-journey/assets/glass')
+          data=json.loads((root/'catalog.json').read_text())
+          assert len(data)==50, 'Expected exactly 50 GLB models'
+          for entry in data:
+              model=root/'models'/entry['file']
+              preview=root/'previews'/entry['file'].replace('.glb','.webp')
+              assert model.is_file() and model.stat().st_size>10000, model
+              assert preview.is_file() and preview.stat().st_size>1000, preview
+              assert hashlib.sha256(model.read_bytes()).hexdigest()==entry['sha256'], model
+              assert len(GLTF2().load(str(model)).animations)>=2, model
+          assert (root/'services.webp').is_file()
+          print(f'Validated {len(data)} GLB models, previews and composition')
+          PY
+      - name: Commit assets to checked out branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data-journey/assets/glass data-journey/glass-index.js
+          git diff --cached --quiet || git commit -m "Publish generated glass 3D models and previews"
+          git push origin HEAD:${GITHUB_REF_NAME}
