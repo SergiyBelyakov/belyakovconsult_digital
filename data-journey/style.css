@@ -7,7 +7,7 @@ dialog{background:#090d14;color:var(--white);border:1px solid #ffffff20;border-r
 .error-button{align-self:flex-start;font-size:10px;color:#ffb020;border:1px solid #ffb02044;border-radius:3px;padding:8px 12px;margin-top:22px}.final-cta{margin-top:26px}
 .catalog-item img{display:block;width:100%;height:115px;object-fit:contain;object-position:left center;margin-bottom:8px;pointer-events:none}.detail-actions{gap:20px;flex-wrap:wrap}.label{background:#05070ac9}.catalog-item{padding-bottom:20px}.catalog-item>strong{font-size:12px}@media(max-width:1000px){.catalog-item img{height:95px}.catalog-item>strong{font-size:10px}}
 
-.journey-languages{display:flex;gap:9px;font-size:10px}.journey-languages a[aria-current]{color:#f05a75}.render-mode{position:absolute;left:17%;right:8%;top:85px;font-size:9px;line-height:1.5;color:#92a0b4;z-index:4;margin:0;max-width:380px}.scene-tools{top:130px}#scene{touch-action:pan-y}.detail-open #scene{touch-action:none}#rotateNode:disabled{opacity:.4;cursor:default}#originalArt[aria-busy=true]{opacity:.5;pointer-events:none}
+.journey-languages{display:flex;gap:9px;font-size:10px}.journey-languages a[aria-current]{color:#f05a75}.render-mode{position:absolute;left:17%;right:8%;top:85px;font-size:9px;line-height:1.5;color:#92a0b4;z-index:4;margin:0;max-width:380px}.scene-tools{top:130px}#scene{touch-action:pan-y}.detail-open #scene{touch-action:none}#rotateNode:disabled{opacity:.4;cursor:default}
 @media(max-width:1000px){nav .site-home{display:none}.journey-languages{font-size:8px;gap:6px}.render-mode{left:6%;right:6%;top:61px;font-size:6px;max-width:240px}.scene-tools{top:35px}.render-mode:not([hidden])~canvas{opacity:.95}}
 
 /* Focused model inspection and readable fallback presentation. */
@@ -46,3 +46,52 @@ footer{flex-wrap:wrap}
 
 /* White data core with a neon red accent, matching both renderers. */
 .key .signal,#traceToggle .signal{width:7px;height:7px;background:#fff;border:1.5px solid #ff1238;box-shadow:0 0 5px #ff123866}
+/* 2026-10: scene-wide orbit, uncluttered stage, and compact contextual information. */
+#scene{touch-action:none!important;cursor:grab;outline-offset:-4px}
+#scene.orbit-active{cursor:grabbing}
+#visual{background:radial-gradient(ellipse at 51% 43%,#0c1119 0%,#070a0f 38%,#05070a 79%)}
+.scene-grid{opacity:.30}
+.inspect-controls,
+#visual[data-view=model] .inspect-controls{
+  left:auto;right:20px;top:70px!important;transform:none;
+  padding:7px 9px;gap:7px;z-index:17;
+  background:#080e16ed;border-color:#ffffff24;
+  box-shadow:0 6px 25px #0007;
+}
+.inspect-controls .orbit-label{font-size:9px;letter-spacing:1.4px;color:#c5ccd6;padding:0 5px}
+.inspect-controls button:hover{color:#fff;border-color:#ef1239}
+#visual[data-view=model] .scene-tools{visibility:visible}
+#visual .detail,
+body.map-open #visual .detail{
+  top:165px;bottom:auto;left:auto;right:18px;
+  width:min(330px,calc(100% - 36px));max-width:none;
+  max-height:min(540px,calc(100svh - 295px));overflow:auto;
+  border-color:#ffffff27;border-left:2px solid #ed092f;
+  background:#0a1019f5;padding:19px 20px 17px;
+  box-shadow:0 18px 50px #000a;
+}
+#visual .detail h3{font-size:17px}
+#visual .detail dl{grid-template-columns:1fr;gap:8px}
+#visual .detail dd{font-size:10px}
+#visual .detail-actions{display:flex;justify-content:flex-start;gap:16px;flex-wrap:wrap}
+#visual .detail-actions #focusNode{border:1px solid #ffffff30;border-radius:3px;padding:4px 9px}
+#visual .detail-actions #focusNode:hover{border-color:#ed103c}
+
+.catalog-item img{-webkit-user-drag:none;user-select:none;-webkit-user-select:none}
+#labels{user-select:none}
+.visual-foot{pointer-events:none}
+@media(max-width:1000px){
+  .inspect-controls,#visual[data-view=model] .inspect-controls{
+    left:auto;right:5%;top:38px!important;
+    padding:3px 5px;gap:3px;
+  }
+  .inspect-controls .orbit-label{font-size:7px;padding:0 2px}
+  #visual .detail,body.map-open #visual .detail{
+    left:6%;right:6%;width:auto;top:auto;bottom:25px;
+    max-height:34svh;padding:12px 14px;
+  }
+  body.detail-open #visual .detail{max-height:35svh}
+  #visual .detail h3{font-size:14px}
+  #visual .detail-actions{gap:8px}
+  .scene-tools{right:6%;max-width:65%;flex-wrap:wrap}
+}
