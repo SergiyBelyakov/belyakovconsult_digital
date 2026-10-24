@@ -116,7 +116,7 @@
 ## Перевірка локально (необов’язково)
 
 ```
-pip install -r requirements.txt
+pip install -r scripts/requirements.txt
 python scripts/validate.py
 python scripts/build_site.py
 python scripts/publish.py --dry-run
