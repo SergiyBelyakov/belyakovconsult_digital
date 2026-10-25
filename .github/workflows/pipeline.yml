@@ -34,6 +34,8 @@ jobs:
         run: python scripts/build_site.py
 
       - name: Опублікувати дописи, час яких настав
+        # Публікує лише продакшн-репозиторій; тестовий тільки збирає сайт.
+        if: github.repository == 'SergiyBelyakov/belyakovconsult'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
