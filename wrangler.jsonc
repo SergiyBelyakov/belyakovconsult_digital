@@ -1,0 +1,13 @@
+// Налаштування Cloudflare для тестового сайту.
+// Явно вказуємо, що сайт лежить у папці site/, щоб Cloudflare не вгадував тип проєкту
+// (без цього файлу він сприймає config.yml конвеєра як проєкт Cecil і збірка падає).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "test-version-belyakovconsult",
+  "compatibility_date": "2026-10-19",
+  "observability": { "enabled": true },
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page"
+  }
+}
