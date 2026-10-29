@@ -47,4 +47,4 @@ class Shell:
         header = LANG_SWITCH.sub(lambda _: switch, self.header, count=1)
         return (f"{self.doc_open}<head>{self.head_static}\n{meta}\n"
                 f'<link href="/assets/insights/insights.css" rel="stylesheet"/>\n'
-                f"{self.body_open}{header}<main>{main}{self.footer}{self.tail}")
+                f"{self.body_open}{header}<main id=\"main-content\">{main}{self.footer}{self.tail}")

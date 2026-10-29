@@ -9,7 +9,7 @@
     --glass-fill: rgba(255, 255, 255, 0.03);
     --text-high: #F4F6F8;
     --text-mid: #A8B0BC;
-    --text-low: #64748b;
+    --text-low: #7F8A9B;
     --font-h: "Montserrat", sans-serif;
     --font-b: "Inter", sans-serif;
     --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -45,13 +45,6 @@
     text-decoration: none; color: #fff; display: flex; align-items: baseline;
     letter-spacing: -1.5px;
 }
-#contact .logo span,#contact:is(.logo span){ 
-    margin-left: 2px;
-    background: radial-gradient(circle at 35% 35%, #FF9999 0%, var(--accent) 55%, #4D0000 100%);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0 0 10px var(--accent-glow));
-    animation: sphere-pulse 3s infinite alternate ease-in-out;
-}
 #contact .nav-links a,#contact:is(.nav-links a){
     color: var(--text-mid); text-decoration: none; font-size: 0.75rem;
     font-weight: 600; margin-left: 30px; transition: var(--transition);
@@ -79,16 +72,7 @@
     background: linear-gradient(to bottom, rgba(5,7,10,0.6), var(--bg-primary));
 }
 #contact .hero-title,#contact:is(.hero-title){ font-family: var(--font-h); font-size: 4.2rem; line-height: 1.08; margin-bottom: 30px; font-weight: 800; color: #fff; }
-#contact .metallic-text,#contact:is(.metallic-text){
-    background: linear-gradient(110deg, #fff 40%, var(--accent-light) 50%, #fff 60%);
-    background-size: 250% auto; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    animation: sweep 7s linear infinite;
-}
-#contact .text-gradient,#contact:is(.text-gradient){
-    background: linear-gradient(90deg, #fff, var(--accent-light));
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    display: inline-block;
-}
+#contact .text-gradient,#contact:is(.text-gradient){ color:#FF4A5C; display:inline-block; }
 #contact .hero-lead,#contact:is(.hero-lead){ font-size: 1.4rem; max-width: 750px; margin-bottom: 50px; font-weight: 300; color: #cbd5e1; }
 #contact .badge,#contact:is(.badge){
     display: inline-block; padding: 6px 14px; background: rgba(217, 4, 41, 0.15);
@@ -172,7 +156,7 @@
 #contact .hero-title,#contact:is(.hero-title){ font-size: 2.6rem; }
 #contact .nav-links,#contact:is(.nav-links){ display: none; }
 #contact .btn-secondary,#contact:is(.btn-secondary){ margin-left: 0; margin-top: 15px; display: flex; }}
-#contact{ --text-mid:#A8B0BC; --text-low:#64748B; --chart-red:#C00018; --dark-red:#8A0012; --coral:#FF6B6B; --amber:#FFB020; --emerald:#10B981; --teal:#14B8A6; --cobalt:#3B82F6; --cyan:#22D3EE; --violet:#A855F7; --magenta:#EC4899; --slate:#64748B; --pale-gray:#94A3B8; }
+#contact{ --text-mid:#A8B0BC; --text-low: #7F8A9B; --chart-red:#C00018; --dark-red:#8A0012; --coral:#FF6B6B; --amber:#FFB020; --emerald:#10B981; --teal:#14B8A6; --cobalt:#3B82F6; --cyan:#22D3EE; --violet:#A855F7; --magenta:#EC4899; --slate:#64748B; --pale-gray:#94A3B8; }
 #contact section,#contact:is(section),#contact footer,#contact:is(footer){ scroll-margin-top:100px; }
 #contact .hero,#contact:is(.hero){ isolation:isolate; min-height:760px; padding:215px 0 120px; }
 #contact .hero-bg,#contact:is(.hero-bg){ z-index:-2; background:none; filter:none; }
@@ -452,19 +436,6 @@
         radial-gradient(circle at 94% 18%, rgba(217,4,41,.055), transparent 25%),
         #05070a;
 }
-#contact .domains-section::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    pointer-events:none;
-    opacity:.22;
-    background:
-        linear-gradient(rgba(255,255,255,.012) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.012) 1px, transparent 1px);
-    background-size:48px 48px;
-    mask-image:linear-gradient(to bottom,transparent,#000 18%,#000 85%,transparent);
-    -webkit-mask-image:linear-gradient(to bottom,transparent,#000 18%,#000 85%,transparent);
-}
 #contact .domains-heading,#contact:is(.domains-heading){
     position:relative;
     z-index:1;
@@ -724,7 +695,6 @@
 #contact ::selection{ background:rgba(217,4,41,.72); color:#fff; }
 @media  (prefers-reduced-data: reduce) {#contact .btn-primary::after{ animation:none; }}
 #contact .detail-hero,#contact:is(.detail-hero){position:relative;isolation:isolate;overflow:hidden;min-height:690px;padding:190px 0 100px;background:radial-gradient(circle at 82% 32%,rgba(217,4,41,.12),transparent 29%),linear-gradient(180deg,#080c12 0%,#05070a 100%);border-bottom:1px solid var(--glass-border)}
-#contact .detail-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.012) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,#000,transparent 92%)}
 #contact .detail-hero-media,#contact:is(.detail-hero-media){position:absolute;z-index:-1;right:-2vw;top:115px;width:min(48vw,720px);height:500px;opacity:.42;overflow:hidden;mask-image:linear-gradient(90deg,transparent 0%,#000 28%,#000 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 28%,#000 100%)}
 #contact .detail-hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#05070a 0%,transparent 45%),linear-gradient(0deg,#05070a 0%,transparent 40%)}
 #contact .detail-hero-media img,#contact:is(.detail-hero-media img){width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.08)}
@@ -929,3 +899,10 @@
 #contact .bc-social-link[aria-label^="Instagram"] svg,#contact:is(.bc-social-link[aria-label^="Instagram"] svg){fill:none}
 #contact .bc-social-link[aria-label^="Instagram"] rect,#contact:is(.bc-social-link[aria-label^="Instagram"] rect),#contact .bc-social-link[aria-label^="Instagram"] circle:not([fill="currentColor"]),#contact:is(.bc-social-link[aria-label^="Instagram"] circle:not([fill="currentColor"])){fill:none}
 #contact{position:relative;z-index:35;display:block;width:100%;margin:0;padding:120px 0;background:#05070a;font-size:16px;text-align:left;letter-spacing:normal;overflow:visible}#contact button{font-size:inherit}#contact .btn{font-size:.8rem}.journey-endnote{position:relative;z-index:35;background:#05070a;padding:32px 5%;display:flex;flex-wrap:wrap;gap:18px;font-size:11px;color:#a8b0bc}.journey-endnote span{max-width:650px}.journey-endnote button{border:1px solid #ffffff25;padding:8px 12px}@media(max-width:768px){#contact{padding:70px 0}}
+
+/* Impeccable pass: contrast + drawn social marks in the journey footer. */
+#contact .social-circle{width:48px;height:48px}
+#contact .social-circle svg{width:20px;height:20px;display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+#contact .social-circle svg[data-fill]{fill:currentColor;stroke:none}
+#contact .form-note{font-size:.78rem;color:#98A2B2}
+#contact input::placeholder,#contact textarea::placeholder{color:#8A94A4;opacity:1}
