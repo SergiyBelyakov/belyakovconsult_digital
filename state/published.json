@@ -1,6 +1,14 @@
 {
+  "completeness-is-not-quality/linkedin-en": {
+    "at": "2026-10-29 16:16",
+    "status": "dry-run"
+  },
   "completeness-is-not-quality/linkedin-uk": {
     "at": "2026-10-28 10:27",
+    "status": "dry-run"
+  },
+  "completeness-is-not-quality/telegram-uk": {
+    "at": "2026-10-29 16:16",
     "status": "dry-run"
   },
   "completeness-is-not-quality/threads-uk": {
