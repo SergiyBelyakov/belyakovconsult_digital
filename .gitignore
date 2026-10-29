@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+
+# Impeccable (per-machine): hooks + engine binary
+.claude/settings.local.json
+.claude/skills/impeccable/scripts/bin/
